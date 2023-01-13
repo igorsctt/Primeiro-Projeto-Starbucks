@@ -41,7 +41,7 @@ h2 {
 }
 
 span {
-    color: #c7a719;
+    color: #046d1e;
     font-size: 70px;
     font-weight: 900;
 }
@@ -52,7 +52,7 @@ p {
 }
 
 button {
-    background: #c7a719;
+    background: #046d1e;
     /* background -> fundo do elemento */
     color: white;
     /* cor do texto */
