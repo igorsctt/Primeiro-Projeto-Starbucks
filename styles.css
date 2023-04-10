@@ -96,3 +96,53 @@ button {
     clip-path: circle(600px at right 800px);
     z-index: -1 ;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+    
+    .caixa-texto,
+    .caixa-imagem {
+        width: 100%;
+    }
+    
+    .caixa-imagem {
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    span {
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .botao-menu {
+        width: 40px;
+        margin: 5px;
+    }
+    
+    .starbucks {
+        width: 200px;
+    }
+
+    .botao-menu {
+        width: 30px;
+        margin: 5px;
+    }
+
+    .botao-menu:hover {
+        transform: translateY(-25px);
+    }
+
+    .circulo {
+        clip-path: circle(300px at right 400px);
+    }
+}
