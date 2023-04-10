@@ -143,6 +143,7 @@ button {
     }
 
     .circulo {
-        clip-path: circle(300px at right 400px);
+        clip-path: circle(300px at right 300px);
+        left: 60px;
     }
 }
